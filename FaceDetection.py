@@ -13,4 +13,13 @@ SET_POINT_Y = 720/2
 
 
 cascPath = sys.argv[1]  # Path of the model used to reveal faces
-faceCascade = cv2.CascadeClassifier(cascPath
+faceCascade = cv2.CascadeClassifier(cascPath)
+drone = Tello()  # declaring drone object
+drone.connect()
+drone.takeoff()
+
+
+drone.streamon()  # start camera streaming
+
+
+# video_capture = cv2.VideoCapture("udp://0.0.0.0:11111")  #
