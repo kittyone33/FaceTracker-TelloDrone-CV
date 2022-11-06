@@ -1,0 +1,10 @@
+import cv2
+import sys
+from djitellopy import Tello
+
+TOLERANCE_X = 5
+TOLERANCE_Y = 5
+SLOWDOWN_THRESHOLD_X = 20
+SLOWDOWN_THRESHOLD_Y = 20
+DRONE_SPEED_X = 20
+DRONE_SPE
