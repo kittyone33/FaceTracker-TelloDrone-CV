@@ -30,4 +30,7 @@ while True:
     # loop through frames
     # ret, frame = video_capture.read()  # used to collect frame from alternative video streams
 
- 
+    frame = drone.get_frame_read().frame  # capturing frame from drone
+    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)  # turning image into gray scale
+
+    faces = faceCascade.detectM
