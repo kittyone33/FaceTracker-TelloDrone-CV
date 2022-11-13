@@ -24,4 +24,10 @@ drone.streamon()  # start camera streaming
 
 # video_capture = cv2.VideoCapture("udp://0.0.0.0:11111")  # raw video from drone streaming address
 # video_capture = cv2.VideoCapture("rtsp://192.168.1.1")  #raw video from action cam Apeman
-# video_capture = cv2.Vi
+# video_capture = cv2.VideoCapture(0)  # raw video from webcam
+
+while True:
+    # loop through frames
+    # ret, frame = video_capture.read()  # used to collect frame from alternative video streams
+
+ 
