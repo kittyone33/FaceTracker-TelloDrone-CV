@@ -41,4 +41,7 @@ while True:
         flags=cv2.CASCADE_SCALE_IMAGE
     )
     i = 0
-   
+    # Decorating image for debug purposes and looping through every detected face
+    for (x, y, w, h) in faces:
+
+        cv2.rectangle(frame, (x, y), (x+w, y+h), (255, 0, 0), 5)  # 
