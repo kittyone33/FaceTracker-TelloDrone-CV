@@ -51,4 +51,10 @@ while True:
 
         cv2.circle(frame, (int(SET_POINT_X), int(SET_POINT_Y)), 12, (255, 255, 0), 8)  # setpoint circle
         i = i+1
-   
+        distanceX = x+w/2 - SET_POINT_X
+        distanceY = y+h/2 - SET_POINT_Y
+
+        up_down_velocity = 0
+        right_left_velocity = 0
+
+        if distanceX < 
