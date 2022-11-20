@@ -62,4 +62,11 @@ while True:
             right_left_velocity = - DRONE_SPEED_X
 
         elif distanceX > TOLERANCE_X:
-            print("sposta il drone al
+            print("sposta il drone alla sua DX")
+            right_left_velocity = DRONE_SPEED_X
+        else:
+            print("OK")
+
+        if distanceY < -TOLERANCE_Y:
+            print("sposta il drone in ALTO")
+      
