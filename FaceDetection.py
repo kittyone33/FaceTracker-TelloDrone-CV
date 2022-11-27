@@ -72,4 +72,11 @@ while True:
             up_down_velocity = DRONE_SPEED_Y
         elif distanceY > TOLERANCE_Y:
             print("sposta il drone in BASSO")
-            up_down_velocity = - DRONE_S
+            up_down_velocity = - DRONE_SPEED_Y
+
+        else:
+            print("OK")
+
+        if abs(distanceX) < SLOWDOWN_THRESHOLD_X:
+            right_left_velocity = int(right_left_velocity / 2)
+        if abs(distanceY) < 
