@@ -84,4 +84,11 @@ while True:
 
         drone.send_rc_control(right_left_velocity, 0, up_down_velocity, 0)
 
-    cv2.imshow('V
+    cv2.imshow('Video', frame)  # mostra il frame sul display del pc
+
+    if cv2.waitKey(1) & 0xFF == ord('q'):  # quit from script
+        break
+
+# rilascio risorse
+# video_capture.release()
+cv
