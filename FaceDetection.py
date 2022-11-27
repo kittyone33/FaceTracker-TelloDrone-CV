@@ -79,4 +79,9 @@ while True:
 
         if abs(distanceX) < SLOWDOWN_THRESHOLD_X:
             right_left_velocity = int(right_left_velocity / 2)
-        if abs(distanceY) < 
+        if abs(distanceY) < SLOWDOWN_THRESHOLD_Y:
+            up_down_velocity = int(up_down_velocity / 2)
+
+        drone.send_rc_control(right_left_velocity, 0, up_down_velocity, 0)
+
+    cv2.imshow('V
