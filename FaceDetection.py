@@ -91,4 +91,4 @@ while True:
 
 # rilascio risorse
 # video_capture.release()
-cv
+cv2.destroyAllWindows()
