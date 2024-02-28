@@ -11,4 +11,7 @@ bash: <b> pip3 install -r requirements.txt </b>
 # Usage
 
 Start it using : <br>
-bash: <b> py
+bash: <b> python3 FaceDetection.py haarcascade_frontalface_default.xml </b>
+
+# Videos
+All test videos can be found on my youtube channel and I'll list them here: 
