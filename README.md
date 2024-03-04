@@ -15,3 +15,8 @@ bash: <b> python3 FaceDetection.py haarcascade_frontalface_default.xml </b>
 
 # Videos
 All test videos can be found on my youtube channel and I'll list them here: 
+- First test, no PID, no face logging : https://www.youtube.com/watch?v=WFz5I1iRhLY
+
+# Limitations
+
+There are some current limitations, such as slow movements, set-point oscill
