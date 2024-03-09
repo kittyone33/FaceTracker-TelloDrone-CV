@@ -23,4 +23,6 @@ There are some current limitations, such as slow movements, set-point oscillatio
 
 # TO DO
 
-Here's the forthcoming
+Here's the forthcoming enhancements : 
+-Adding a PID algorithm for position control, to restrict oscillation and adjust drone speed <br>
+-Adding face tracking with ID assignment, to follow only one given face.
