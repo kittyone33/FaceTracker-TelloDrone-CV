@@ -19,4 +19,8 @@ All test videos can be found on my youtube channel and I'll list them here:
 
 # Limitations
 
-There are some current limitations, such as slow movements, set-point oscill
+There are some current limitations, such as slow movements, set-point oscillations and occasional false positive faces detection. This is a problem as the algorithm adjusts movement according to every face found in the frame.
+
+# TO DO
+
+Here's the forthcoming
